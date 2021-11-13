@@ -1,22 +1,22 @@
 pipeline{
     agent any
     stages{
-        stage('±àÒë'){
+        stage('ç¼–è¯‘'){
             steps{
-                echo('±àÒë')
+                echo('ç¼–è¯‘')
             }
         }
-        stage('´ò°ü'){
+        stage('æ‰“åŒ…'){
             steps{
-                echo('´ò°ü')
+                echo('æ‰“åŒ…')
             }
         }
-        stage('²âÊÔ'){
+        stage('æµ‹è¯•'){
             steps{
-                echo('²âÊÔ')
+                echo('æµ‹è¯•')
             }
         }
-        stage('²¿Êð'){
+        stage('éƒ¨ç½²'){
             steps{
                 echo('Deploye')
             }
