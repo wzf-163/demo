@@ -1,24 +1,22 @@
 pipe{
     agent any
-    stages('Build'){
-        steps{
-            echo('±àÒë')
+    stages{
+        stage('ç¼–è¯‘'){
+            steps{
+                echo('ç¼–è¯‘')
+            }
+        stage('æ‰“åŒ…'){
+            steps{
+                echo('æ‰“åŒ…')
+            }
+        stage('æµ‹è¯•'){
+            steps{
+                echo('æµ‹è¯•')
+            }
+        stage('éƒ¨ç½²'){
+            steps{
+                echo('Deploye')
+            }
         }
-    stages('Test'){
-        steps{
-            echo('²âÊÔ')
-        }
-    stages('´ò°ü'){
-        steps{
-            echo('´ò°ü')
-        }
-    stages('Deploye'){
-        steps{
-            echo('²¿Êð')
-        }
-
-
-
     }
-
 }
